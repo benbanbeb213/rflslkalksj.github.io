@@ -1,0 +1,80 @@
+.watch-body {
+    background: #060b16;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.watch-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-area {
+    flex: 3;
+    position: relative;
+}
+
+.video {
+    width: 100%;
+    border-radius: 10px;
+    background: black;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    background: #0c1629;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.control-btn {
+    background: #1f2d4a;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.control-btn:hover {
+    background: #3fa9ff;
+}
+
+.timeline input {
+    width: 200px;
+}
+
+.volume-slider {
+    width: 80px;
+}
+
+.next-btn {
+    background: #3fa9ff;
+}
+
+.episode-list {
+    flex: 1;
+    padding: 15px;
+    background: #0f1828;
+    border-radius: 10px;
+}
+
+.episodes button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #1f2d4a;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.episodes button:hover {
+    background: #3fa9ff;
+}
